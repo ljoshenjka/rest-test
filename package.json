@@ -4,7 +4,7 @@
   "description": "Test task for r3pi.io",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter mochawesome"
+    "test": "./node_modules/.bin/mocha ./test/suites/demosuite.js --reporter mochawesome"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "chai-http": "^3.0.0",
     "config": "^1.25.1",
     "mocha": "^3.2.0",
-    "mochawesome": "^2.3.0"
+    "mochawesome": "^2.3.0",
+    "validator": "^8.2.0"
   }
 }

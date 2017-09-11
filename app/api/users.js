@@ -5,14 +5,14 @@ var apiList = require('./api.js');
 
 chai.use(chaiHttp);
 
-var posts = function(callback) {
+var get = function(userId, callback) {
 	chai.request(apiList.url)
-		.get(apiList.posts)
+		.get(apiList.users + userId)
 		.end(function(err, res) {
 			return callback(res);
 		});
 };
 
 module.exports = {
-	posts: posts
+	get: get
 };
