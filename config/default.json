@@ -1,0 +1,6 @@
+{
+	"server": {
+    "key": "jsonplaceholder",
+    "host": "https://jsonplaceholder.typicode.com"
+  }
+}

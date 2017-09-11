@@ -1,0 +1,26 @@
+{
+  "name": "test-task-rest",
+  "version": "1.0.0",
+  "description": "Test task for r3pi.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljoshenjka/rest-test.git"
+  },
+  "author": "Aleksejs Trescalins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljoshenjka/rest-test/issues"
+  },
+  "homepage": "https://github.com/ljoshenjka/rest-test#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "config": "^1.25.1",
+    "mocha": "^3.2.0",
+    "mochawesome": "^2.3.0"
+  }
+}
